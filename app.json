@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home-page/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "漂流瓶",
+    "navigationBarTextStyle":"white"
+  },
+  "networkTimeout": {
+    "request": 100000,
+    "uploadFile": 30000,
+    "connectSocket": 30000,
+    "downloadFile": 30000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于获取你的拾取漂流瓶位置"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
