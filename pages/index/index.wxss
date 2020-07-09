@@ -13,7 +13,8 @@
 }
 
 .usermotto {
-  margin-top: 50px;
+  margin-top: 100rpx;
+  font-family: cursive;
 }
 button {
    margin-top: 30rpx;
